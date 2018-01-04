@@ -17,6 +17,8 @@ The application contains three different files to make it simple to understand t
  
  # Output
  
+ Below you will find the sample output
+ 
  | Name     | role    | serial  | 
 | ------------- |-------------| ---------|
 | get-svs-apic1 | controller | FCH1941V2J5 |
