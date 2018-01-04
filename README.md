@@ -17,6 +17,24 @@ The application contains three different files to make it simple to understand t
  
  # Output
  
+ | Name     | role    | serial  | 
+| ------------- |-------------| ---------|
+| get-svs-apic1  |   yes  |  admin  | <ul></ul> |  Username used to login to the switch  |
+| get-svs-apic2  |   yes  |    | <ul></ul> |  Password used to login to the switch  |
+| get-svs-apic3  |   no  |    | <ul>  </ul> | IP Address or hostname of APIC resolvable by Ansible control host |
+| fab1-p1-s1  |   yes  | https | <ul><li>http</li>  <li>https</li></ul> |  Dictates connection protocol |
+|   fab1-p1-l1  |    leaf    | SAL1812NUR7 |
+|   fab1-p1-l1  |    leaf    | SAL1812NUR7 |
+|   fab1-p1-l1  |    leaf    | SAL1812NUR7 |
+|   fab1-p1-l2  |    leaf    | SAL1821SWSU |
+|   fab1-p1-s3  |   spine    | SAL1945SMKQ |
+|   fab1-p1-l4  |    leaf    | SAL1921FJRH |
+|   fab1-p1-l3  |    leaf    | SAL1745G1R3 |
+|   fab1-p2-l1  |    leaf    | SAL19069BTF |
+|   fab1-p2-s1  |   spine    | SAL1920F3E6 |
++---------------+------------+-------------+
+
+ 
  +---------------+------------+-------------+
 |      Name     |    role    |    serial   |
 +---------------+------------+-------------+
@@ -25,7 +43,7 @@ The application contains three different files to make it simple to understand t
 | get-svs-apic3 | controller | FCH1923V18Z |
 |   fab1-p1-s1  |   spine    | SAL1934MN56 |
 |   fab1-p1-l1  |    leaf    | SAL1812NUR7 |
-|   fab1-p1-s2  |   spine    | SAL1945SMJM |
+|   fab1-p1-l1  |    leaf    | SAL1812NUR7 |
 |   fab1-p1-l2  |    leaf    | SAL1821SWSU |
 |   fab1-p1-s3  |   spine    | SAL1945SMKQ |
 |   fab1-p1-l4  |    leaf    | SAL1921FJRH |
