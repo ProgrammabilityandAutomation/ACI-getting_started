@@ -17,7 +17,7 @@ The application contains three different files to make it simple to understand t
  
  # Output
  
- Below you will find the sample output
+ Below is the sample output from this application
  
  | Name     | role    | serial  | 
 | ------------- |-------------| ---------|
