@@ -1,6 +1,6 @@
-# getting_started
+# ACI Getting Started
 
-#Description
+# Description
 
 Getting Started program is a simple python program to get the students from TECDCN-2941 familiar with the concepts of API's and python in Cisco ACI.  This application queries the APIC for the Name, Role and Serial Number. 
 
