@@ -7,7 +7,7 @@ import constant
 
 def aaaLogin():
     # Request
-    # POST https://dp2-apic1.cisco.com/api/aaaLogin.json
+    # POST APIC
 
     try:
         response = requests.post(
