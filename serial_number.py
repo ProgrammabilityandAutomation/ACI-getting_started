@@ -20,7 +20,7 @@ def serial_number():
         )
 
         structured_data = json.loads(response.text)
-        fields = ['name', 'role', 'serial']
+        fields = ['name', 'role', 'serial', 'oobMgmtAddr']
         data = []
 
         for endpoints in structured_data['imdata']:
@@ -31,10 +31,10 @@ def serial_number():
             data.append(line_dict)
 
         table = PrettyTable()
-        table.field_names = ['Name','role','serial']
+        table.field_names = ['Name','role','serial','oobMgmtAddr']
 
         for row in data:
-            table.add_row([row['name'],row['role'],row['serial']])
+            table.add_row([row['name'],row['role'],row['serial'],row['oobMgmtAddr']])
 
         print table
 
